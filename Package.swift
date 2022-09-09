@@ -19,5 +19,6 @@ let package = Package(
             name: "PunnycodeSwiftTests",
             dependencies: ["Punycode"],
             path: "Tests")
-    ]
+    ],
+    swiftLanguageVersions: [.v4, .v4_2, .version("5")]
 )
